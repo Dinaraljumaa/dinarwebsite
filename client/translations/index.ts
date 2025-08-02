@@ -12,7 +12,7 @@ export const translations = {
 
     // Common
     common: {
-      donateNow: "تبرعالان  الآن",
+      donateNow: "تبرع الآن",
       requestHelp: "طلب مساعدة",
       learnMore: "اعرف المزيد",
       contactUs: "تواصل معنا",
