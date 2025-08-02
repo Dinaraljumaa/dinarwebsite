@@ -40,7 +40,7 @@ export default function Help() {
                     className="bg-charity-brown-500 hover:bg-charity-brown-600 text-white px-8 py-4 text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 border-0"
                     onClick={() =>
                       window.open(
-                        "https://cdn.builder.io/o/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2F5cc56193b25d4f118fa95b5871af70e8?alt=media&token=d5854113-1389-4061-b834-7e33a0fd4e51&apiKey=92f5e81ad21d43a6ae57bdb3a5380637",
+                        "/help.pdf",
                         "_blank",
                       )
                     }
