@@ -46,7 +46,7 @@ export function Layout({ children }: LayoutProps) {
             <div className="flex items-center gap-8">
               <Link to="/" className="flex items-center">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fd61b9f9852d84c77b0591719e08e57a4?format=webp&width=800"
+                  src="/logo.png"
                   alt="دينار الجمعة"
                   className="h-20 w-auto hover:opacity-80 transition-opacity"
                 />
