@@ -147,7 +147,7 @@ export default function Donate() {
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-12 h-12 bg-charity-brown-200 rounded-full flex items-center justify-center border-2 border-charity-brown-100 shadow-sm">
                         <img
-                          src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2F90b2db52442144f9869dc846ebb368f7?format=webp&width=800"
+                          src="/benefitpay-logo.png"
                           alt="BenefitPay Logo"
                           className="w-8 h-8 object-contain"
                         />
@@ -190,7 +190,7 @@ export default function Donate() {
                       <div className="flex items-center justify-center gap-3 mb-4">
                         <div className="w-16 h-16 bg-charity-brown-100 rounded-full flex items-center justify-center border-2 border-charity-brown-50 shadow-md">
                           <img
-                            src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2F90b2db52442144f9869dc846ebb368f7?format=webp&width=800"
+                            src="/benefitpay-logo.png"
                             alt="BenefitPay Logo"
                             className="w-10 h-10 object-contain"
                           />
@@ -215,7 +215,7 @@ export default function Donate() {
                           </p>
                         </div>
                         <img
-                          src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2F8199efe19c7c4735a115571c6d4db5a1?format=webp&width=800"
+                          src="/qr-code.png"
                           alt="QR Code للدفع عبر BenefitPay - دينار الجمعة"
                           className="w-48 h-48 mx-auto rounded-lg"
                         />

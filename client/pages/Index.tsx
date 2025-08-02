@@ -28,7 +28,7 @@ export default function Index() {
           {/* Hero Logo */}
           <div className="mb-8">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fd61b9f9852d84c77b0591719e08e57a4?format=webp&width=800"
+              src="/logo.png"
               alt="دينار الجمعة"
               className="h-40 md:h-56 lg:h-64 xl:h-72 w-auto mx-auto"
             />
@@ -100,7 +100,7 @@ export default function Index() {
                 <p className="mb-2">{t("home.licenseText")}</p>
                 <p>
                   <a
-                    href="https://cdn.builder.io/o/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fc0ee1d41c24f4ff4896edd1b22fc2c7a?alt=media&token=1f1afcb5-1cc0-4cd0-a5a1-8c3a44dc8f95&apiKey=92f5e81ad21d43a6ae57bdb3a5380637"
+                    href="/license.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 underline hover:text-blue-800 font-medium"
@@ -231,7 +231,7 @@ export default function Index() {
                 className="bg-charity-brown-500 hover:bg-charity-brown-600 text-white px-12 py-6 text-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 border-0"
                 onClick={() =>
                   window.open(
-                    "https://cdn.builder.io/o/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2F5cc56193b25d4f118fa95b5871af70e8?alt=media&token=d5854113-1389-4061-b834-7e33a0fd4e51&apiKey=92f5e81ad21d43a6ae57bdb3a5380637",
+                    "/help.pdf",
                     "_blank",
                   )
                 }

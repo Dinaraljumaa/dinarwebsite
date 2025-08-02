@@ -46,7 +46,7 @@ export function Layout({ children }: LayoutProps) {
             <div className="flex items-center gap-8">
               <Link to="/" className="flex items-center">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fd61b9f9852d84c77b0591719e08e57a4?format=webp&width=800"
+                  src="/logo.png"
                   alt="دينار الجمعة"
                   className="h-20 w-auto hover:opacity-80 transition-opacity"
                 />
@@ -136,7 +136,7 @@ export function Layout({ children }: LayoutProps) {
             <div className="md:col-span-2 text-center md:text-right">
               <div className="mb-6">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fd61b9f9852d84c77b0591719e08e57a4?format=webp&width=800"
+                  src="/logo.png"
                   alt="دينار الجمعة"
                   className="h-18 w-auto mx-auto md:mx-0"
                 />
@@ -247,7 +247,7 @@ export function Layout({ children }: LayoutProps) {
                   {t("footer.licenseText")}
                 </p>
                 <a
-                  href="https://cdn.builder.io/o/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fc0ee1d41c24f4ff4896edd1b22fc2c7a?alt=media&token=1f1afcb5-1cc0-4cd0-a5a1-8c3a44dc8f95&apiKey=92f5e81ad21d43a6ae57bdb3a5380637"
+                  href="/license.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-charity-brown-200 hover:text-charity-brown-100 text-xs underline font-medium inline-block mt-1"
