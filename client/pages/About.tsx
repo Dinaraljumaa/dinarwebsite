@@ -32,7 +32,7 @@ export default function About() {
               </p>
               <p className="text-sm mt-2">
                 <a
-                  href="https://cdn.builder.io/o/assets%2F92f5e81ad21d43a6ae57bdb3a5380637%2Fc0ee1d41c24f4ff4896edd1b22fc2c7a?alt=media&token=1f1afcb5-1cc0-4cd0-a5a1-8c3a44dc8f95&apiKey=92f5e81ad21d43a6ae57bdb3a5380637"
+                  href="/license.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white underline hover:text-charity-cream-100 font-medium"
