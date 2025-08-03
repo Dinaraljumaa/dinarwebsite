@@ -79,12 +79,12 @@ export default function Contact() {
                 {t("contact.linkCenter")}
               </h2>
               <a
-                href="https://heylink.me/Dinar.Aljumaa/"
+                href="https://linktr.ee/dinar.aljumaa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-charity-cream-200 hover:underline text-lg font-medium"
               >
-                heylink.me/Dinar.Aljumaa
+                linktr.ee/dinar.aljumaa
               </a>
               <p className="text-charity-cream-100 text-sm"></p>
             </CardContent>
