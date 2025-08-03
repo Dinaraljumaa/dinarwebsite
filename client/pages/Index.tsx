@@ -54,17 +54,14 @@ export default function Index() {
               </Link>
             </Button>
             <Button
+              asChild
               size="lg"
               className="bg-charity-brown-500 hover:bg-charity-brown-600 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-              onClick={() =>
-                window.open(
-                  "https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9kYzc2ZTQ4MzMyNjlkNTNkL0VYQmtMT0ZJdmFwR3I0WVhfd21kWUpRQkZLRmY4Uk9na0NJVEF3bDE4NTZ1WWc%5FZT02MTZyenQmdXRtX21lZGl1bT1zb2NpYWwmdXRtX3NvdXJjZT1oZXlsaW5rLm1l&cid=DC76E4833269D53D&id=DC76E4833269D53D%21se12c6470bd4846aaaf8617ff099d6094&parId=root&o=OneUp",
-                  "_blank",
-                )
-              }
             >
-              {t("common.requestHelp")}
-              <ArrowLeft className={`h-5 w-5 ${isRTL ? "mr-2" : "ml-2"}`} />
+              <Link to="/help">
+                {t("common.requestHelp")}
+                <ArrowLeft className={`h-5 w-5 ${isRTL ? "mr-2" : "ml-2"}`} />
+              </Link>
             </Button>
           </div>
         </div>
