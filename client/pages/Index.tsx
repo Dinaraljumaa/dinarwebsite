@@ -224,19 +224,16 @@ export default function Index() {
           <Card className="p-8 shadow-lg border-charity-brown-300 bg-gradient-to-br from-charity-brown-400 to-charity-brown-500">
             <CardContent className="p-0">
               <Button
+                asChild
                 size="lg"
                 className="bg-charity-brown-500 hover:bg-charity-brown-600 text-white px-12 py-6 text-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 border-0"
-                onClick={() =>
-                  window.open(
-                    "/help.pdf",
-                    "_blank",
-                  )
-                }
               >
-                {t("home.helpFormText")}
-                <ExternalLink
-                  className={`h-6 w-6 ${isRTL ? "mr-3" : "ml-3"}`}
-                />
+                <Link to="/help">
+                  {t("home.helpFormText")}
+                  <ArrowLeft
+                    className={`h-6 w-6 ${isRTL ? "mr-3" : "ml-3"}`}
+                  />
+                </Link>
               </Button>
             </CardContent>
           </Card>
