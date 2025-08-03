@@ -219,7 +219,7 @@ export function Layout({ children }: LayoutProps) {
                       <Instagram className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
                     </a>
                     <a
-                      href="https://heylink.me/Dinar.Aljumaa/"
+                      href="https://linktr.ee/dinar.aljumaa"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-charity-brown-500 hover:bg-charity-brown-600 p-3 rounded-full transition-colors group"
