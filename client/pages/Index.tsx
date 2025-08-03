@@ -288,12 +288,12 @@ export default function Index() {
                     {t("home.linkCenter")}
                   </h3>
                   <a
-                    href="https://heylink.me/Dinar.Aljumaa/"
+                    href="https://linktr.ee/dinar.aljumaa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-charity-cream-200 hover:underline text-sm"
                   >
-                    heylink.me/Dinar.Aljumaa
+                    linktr.ee/dinar.aljumaa
                   </a>
                 </div>
               </CardContent>
